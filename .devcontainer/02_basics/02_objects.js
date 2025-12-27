@@ -49,10 +49,35 @@
 // }
 // console.log(data.extraDetails.fullName?.middleName?.id);
 
-const obj1= {1:"a" , 2:"b"}
-const obj2= {3:"c" , 4:"d"}
-const obj3= Object.assign({},obj1,obj2)
-console.log(obj3);
+//  const obj1= {1:"a" , 2:"b"}
+//  const obj2= {3:"c" , 4:"d"}
+// // const obj3= Object.assign(obj1,obj2)
+
+// obj3={...obj1,...obj2}
+//  console.log(obj3);
+// console.log(obj1);
+
+
+// let data={ name: "kavya",
+//         age:20,
+//         gmail:"kavya@mail.com",
+//         student:true,
+// }
+// console.log(data.hasOwnProperty("age"));
+// console.log(data.hasOwnProperty("loggedIn"));
+
+
+//************************************************************************//
+
+
+const course={
+            courseName:"js",
+            price:1000,
+            teacher:"hitesh"
+}
+const {teacher:tc}=course
+console.log(tc);
+
 
 
 
