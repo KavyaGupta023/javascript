@@ -59,3 +59,71 @@
 // }
 // arr.forEach(one)
 
+// let arr=[1,2,3,4,5,6]
+// arr.forEach( function (item){
+//         console.log(item);
+        
+// })
+
+// const val=arr.filter( function (item){
+//     return item%2==0  ;      
+// } )
+// // console.log(val);
+
+// let array=[]
+// arr.forEach( (item)=>{
+//     if(item>3)
+//         array.push(item)
+// })
+// console.log(array);
+
+// const val=arr.filter( (item)=> item>3)
+
+// console.log(val)
+ 
+
+// let arr=[1,2,3,4,5,6,7]
+// const val=arr.map( (item)=> item+10)
+// console.log(val);
+
+//  let arr=[1,2,3,4,5,6,7,8,9,10]
+//  const val=arr.map( (item)=> item*10)
+//               .map( (item)=> item+1)
+//               .filter((item)=> (item>=40))
+// console.log(val)
+
+// const arr=[1,2,3]
+// const ans=arr.reduce( function(acc,currvalue){
+//     return acc+currvalue
+// },0)
+// console.log(ans);
+
+// const val=arr.reduce( (acc,currvalue)=>{
+//     return acc+currvalue
+// },0)
+// console.log(val);
+
+// const val=arr.reduce( (arr,currvalue)=> arr+currvalue,0)
+//  console.log(val);
+
+const array=[
+    {
+        course:"js",
+        price:100
+    },
+    {
+        course:"python",
+        price:2000
+    },
+    {
+        course:"java",
+        price:500
+    },
+    {
+        course:"cpp",
+        price:3000
+    },
+]
+
+const val=array.reduce( (acc,currvalue)=>acc+currvalue.price,0)
+console.log(val);
